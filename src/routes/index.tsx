@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -75,8 +76,7 @@ function App() {
     <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-md px-5 pb-12 pt-8">
         <header className="mb-8 text-center">
-          <div className="mb-2 text-3xl">🧭</div>
-          <h1 className="text-2xl font-bold text-primary">내 일 나침반</h1>
+          <img src={logo} alt="내 일 나침반 로고" className="mx-auto mb-3 h-28 w-28 rounded-2xl bg-white p-1 shadow-lg ring-2 ring-cta/40" />
           <p className="mt-1 text-base text-muted-foreground">
             나에게 맞는 일, 함께 찾아드릴게요
           </p>
@@ -111,7 +111,7 @@ function App() {
             <button
               disabled={!ready}
               onClick={() => setStep(2)}
-              className="mt-4 w-full rounded-2xl bg-accent py-5 text-xl font-bold text-accent-foreground shadow-lg transition-all active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-muted disabled:text-muted-foreground disabled:shadow-none"
+              className="mt-4 w-full rounded-2xl bg-cta py-5 text-xl font-bold text-cta-foreground shadow-lg transition-all active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-muted disabled:text-muted-foreground disabled:shadow-none"
             >
               내 직업 찾기 →
             </button>
@@ -192,7 +192,7 @@ function App() {
 
             <button
               onClick={reset}
-              className="mt-4 w-full rounded-2xl bg-accent py-5 text-xl font-bold text-accent-foreground shadow-lg active:scale-[0.98]"
+              className="mt-4 w-full rounded-2xl bg-cta py-5 text-xl font-bold text-cta-foreground shadow-lg active:scale-[0.98]"
             >
               처음으로 돌아가기
             </button>
