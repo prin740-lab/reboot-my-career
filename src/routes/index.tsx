@@ -111,7 +111,7 @@ function App() {
             <button
               disabled={!ready}
               onClick={() => setStep(2)}
-              className="mt-4 w-full rounded-2xl bg-accent py-5 text-xl font-bold text-accent-foreground shadow-lg transition-all active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-muted disabled:text-muted-foreground disabled:shadow-none"
+              className="mt-4 w-full rounded-2xl bg-cta py-5 text-xl font-bold text-cta-foreground shadow-lg transition-all active:scale-[0.98] disabled:cursor-not-allowed disabled:bg-muted disabled:text-muted-foreground disabled:shadow-none"
             >
               내 직업 찾기 →
             </button>
