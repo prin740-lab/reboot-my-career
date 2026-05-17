@@ -75,8 +75,12 @@
   --secondary-foreground: oklch(0.95 0.005 260);
   --muted: oklch(0.30 0.04 260);
   --muted-foreground: oklch(0.65 0.03 260);
-  --accent: oklch(0.82 0.17 90);
-  --accent-foreground: oklch(0.20 0.04 260);
+  --accent: oklch(0.76 0.15 60);
+  --accent-foreground: oklch(0.2 0.04 260);
+  --cta: oklch(0.86 0.17 95);
+  --cta-foreground: oklch(0.2 0.04 260);
+  --color-cta: var(--cta);
+  --color-cta-foreground: var(--cta-foreground);
   --success: oklch(0.70 0.15 150);
   --warning: oklch(0.75 0.14 75);
   --color-success: var(--success);
