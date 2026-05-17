@@ -76,7 +76,7 @@ function App() {
     <div className="min-h-screen bg-background">
       <div className="mx-auto max-w-md px-5 pb-12 pt-8">
         <header className="mb-8 text-center">
-          <img src={logo} alt="내 일 나침반 로고" className="mx-auto mb-3 h-24 w-24 rounded-2xl shadow-lg" />
+          <img src={logo} alt="내 일 나침반 로고" className="mx-auto mb-3 h-28 w-28 rounded-2xl bg-white p-1 shadow-lg ring-2 ring-cta/40" />
           <p className="mt-1 text-base text-muted-foreground">
             나에게 맞는 일, 함께 찾아드릴게요
           </p>
