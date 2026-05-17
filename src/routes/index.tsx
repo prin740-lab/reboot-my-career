@@ -192,7 +192,7 @@ function App() {
 
             <button
               onClick={reset}
-              className="mt-4 w-full rounded-2xl bg-accent py-5 text-xl font-bold text-accent-foreground shadow-lg active:scale-[0.98]"
+              className="mt-4 w-full rounded-2xl bg-cta py-5 text-xl font-bold text-cta-foreground shadow-lg active:scale-[0.98]"
             >
               처음으로 돌아가기
             </button>
