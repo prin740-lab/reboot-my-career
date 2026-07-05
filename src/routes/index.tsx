@@ -84,7 +84,7 @@ function App() {
 
         {step === 1 && (
           <section className="space-y-7">
-            <Group label="과거에 어떤 일을 하셨나요?">
+            <Group label="과거에 어떤 업종의 일을 하셨나요?">
               {(["음식점", "소매", "서비스", "제조"] as Industry[]).map((v) => (
                 <Choice key={v} active={industry === v} onClick={() => setIndustry(v)}>
                   {v}
