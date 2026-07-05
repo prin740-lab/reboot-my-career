@@ -100,7 +100,7 @@ function App() {
               ))}
             </Group>
 
-            <Group label="어떤 일이 더 편하세요?">
+            <Group label="본인의 장점을 선택해 주세요">
               {(["사람 만나는 게 좋다", "혼자 집중하는 게 좋다"] as Personality[]).map((v) => (
                 <Choice key={v} active={personality === v} onClick={() => setPersonality(v)} full>
                   {v}
